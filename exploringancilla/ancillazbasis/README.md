@@ -12,7 +12,7 @@
 
 ### Image of Circuit based on maliciousancillaZbasis.py
 - Built with IBM Composer
-![alt text](maliciousancillaZbasis circuit.png)
+![alt text](maliciousancillaZbasiscircuit.png)
 
 
 ### Advantage of the attack:
