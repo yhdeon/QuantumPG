@@ -10,6 +10,11 @@
 - The goal of this attack is to allow attack to find out what the input qubit state is
 - From the attack, attacker can get to learn about amplitude probabilities and see the bias/parity
 
+### Image of Circuit based on maliciousancillaZbasis.py
+- Built with IBM Composer
+![alt text](maliciousancillaZbasis circuit.png)
+
+
 ### Advantage of the attack:
 - No interference to the target original circuit logic
 - Can learn about the initial target input qubit state
@@ -22,3 +27,4 @@
 ### Understanding target qubits when they are in classical basis state and superpositioned state
 - When the malicious ancilla attach to the target qubit when they are in classical basis state, the ancilla will receive an exact copy of the classical value. It is entanglement, but a trivial kind whereby it is separatable, no cloning involved thus not violating No-Cloning theorem.
 - But if the malicious ancilla attach to the target qubit when they are in superpositioned state, the action will no longer be like copying. This entanglement with superpositioned qubit will result in attacker unable to tell the target qubit and ancilla separately as it is either 0 or 1 randomly, and measuring it will collapse the entangled state, not allowing the attacker to get the original state of the target qubit fully (resulting in failed z-basis attack)
+

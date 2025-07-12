@@ -11,19 +11,16 @@ from qiskit.quantum_info import Statevector
 # and then measures                      #
 ##########################################
 
-# Create a simple 3-qubit circuit
-qc = QuantumCircuit(3, 3)
+# Create a simple 2-qubit circuit
+qc = QuantumCircuit(2, 2)
 
-# Step 1: Apply H to qubit 0 and 1 (superposition)
 qc.h(0)
 qc.h(1)
 
-# Step 2: Apply CNOT gates for some entanglement
-qc.cx(0, 2)  # entangle q0 with q2
-qc.cx(1, 2)  # further entangle q1 with q2
+qc.cx(0, 1)  # entangle q0 with q2
+# qc.cx(1, 2)  # further entangle q1 with q2
 
-# Step 3: Measure all qubits
-qc.measure([0, 1, 2], [0, 1, 2])
+qc.measure([0, 1], [0, 1])
 
 # Standard way to simulate the circuit and display results + circuit
 simulator = AerSimulator()
