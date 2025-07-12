@@ -21,8 +21,7 @@
 
 ### Disadvantage of the attack:
 - Attacker firstly need to somehow get access to the circuit first to make modification
-- This attack requires the malicious ancilla to be attached to target qubit before they goes into superposition (if there is). This is because if target qubit goes into superposition, ancilla 
-
+- This attack requires the malicious ancilla to be attached to target qubit before they goes into superposition (if there is). This is because if target qubit goes into superposition, this z-basis attack will not work. (refer below)
 
 ### Understanding target qubits when they are in classical basis state and superpositioned state
 - When the malicious ancilla attach to the target qubit when they are in classical basis state, the ancilla will receive an exact copy of the classical value. It is entanglement, but a trivial kind whereby it is separatable, no cloning involved thus not violating No-Cloning theorem.
