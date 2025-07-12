@@ -1,6 +1,6 @@
 ## Exploring using ancilla for z-basis attack
 
-### This information may be wrong, I am just jotting down based on my level of understanding
+### This information may be wrong, I am just jotting down based on my level of understanding :3
 
 ### About Z-Basis
 - It a computational basis, consisting of 2 states |1> or |0>
