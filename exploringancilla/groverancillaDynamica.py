@@ -2,7 +2,6 @@ from qiskit import QuantumCircuit, transpile
 from qiskit_aer import AerSimulator
 from qiskit.visualization import plot_histogram
 from qiskit.quantum_info import Statevector
-import matplotlib.pyplot as plt
 
 # in this code, we are using 4 qubits, 4 classical bits
 # 4 qubits -> 2 user qubits (target) and 2 ancilla qubits (attacker)
