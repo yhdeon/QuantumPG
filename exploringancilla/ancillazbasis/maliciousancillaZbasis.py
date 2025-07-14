@@ -4,6 +4,8 @@ from qiskit_aer import AerSimulator
 from qiskit.visualization import plot_histogram
 from qiskit.quantum_info import Statevector
 
+import matplotlib.pyplot as plt
+
 #################################################
 # ENVIRONMENT 1 Target Does abit of processing  #
 # (superposition, entanglement)                 #
@@ -74,3 +76,6 @@ print("No. of counts: ", counts)
 # Based on the inference, attacker will know that the target qubit q0 is |1> and q1 is |0>
 # For the other qubits, they are different from the original target circuit logic (not really relevant for attacker)
 
+# Display graph result
+plot_histogram(counts)
+plt.show()
