@@ -10,10 +10,11 @@
 - The goal of this attack is to allow attack to find out what the input qubit state is
 - From the attack, attacker can get to learn about amplitude probabilities and see the bias/parity
 
-### Image of Circuit based on maliciousancillaZbasis.py
+### Image of Circuit based on maliciousancillaZbasis
 - Built with IBM Composer
 ![alt text](maliciousancillaZbasiscircuit.png)
-
+![alt text](maliciousancillaZbasiscircuit2.png)
+![alt text](maliciousancillaZbasiscircuit3.png)
 
 ### Advantage of the attack:
 - No interference to the target original circuit logic

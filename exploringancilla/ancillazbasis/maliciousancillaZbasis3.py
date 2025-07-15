@@ -12,7 +12,10 @@ import matplotlib.pyplot as plt
 qc = QuantumCircuit(4, 4)
 
 # simulate target input qubit q0 be |1> and q1 be |0>
-qc.x(0)  # q0 is |1>
+# qc.x(0)  # q0 is |1>
+
+# q0 is |0> by default
+qc.x(1) # q1 is |1> for this example
 
 # attacker attach malicious ancilla to target qubits
 qc.cx(0,2)
